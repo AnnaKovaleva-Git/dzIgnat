@@ -13,6 +13,8 @@ import avatar from './avatar.png'
 * 5 - сделать стили в соответствии с дизайном
 * */
 
+//test1
+
 // нужно создать правильный тип вместо any
 export type MessageType = any
 
