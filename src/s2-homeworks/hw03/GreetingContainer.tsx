@@ -26,7 +26,8 @@ export const pureOnBlur = (name: string, setError: (error: string) => void) => {
 }
 
 export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: () => void) => {
-    if (e.charCode === 13) {
+    console.log(e)
+    if (e.keyCode === 13) {
         addUser()
     }
 }
